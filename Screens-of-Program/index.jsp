@@ -15,7 +15,7 @@
    <div class="options">
         <a href="http://localhost:8080/StageBank/Cadastro.html">CADASTRO</a>
         <a href="http://localhost:8080/StageBank/Login.html">LOGIN</a>
-        <a href="http://localhost:8080/StageBank/Deposit.html">DEPOSITO</a>
+        <a href="http://localhost:8080/StageBank/DepositoScreen.jsp">DEPOSITO</a>
    </div>
 
 
