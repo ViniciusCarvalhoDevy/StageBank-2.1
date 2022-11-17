@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body{
+    background:linear-gradient(360deg, rgb(0, 0, 0), #ff0044);
+   
+}
+#body-login{
+    margin-bottom: 227px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: #F2F2F2;
+    font-family: 'Secular One', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    font-size: 45px;
+
+}
+
+.inputs{
+    font-size: 20px;
+    font-family: 'Secular One', sans-serif;
+    color:#F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.put{
+    border: 2%;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    padding: 10px;
+}
+.form{
+    padding-right: 30%;
+    padding-left: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.submit{
+        font-size: 20px;
+        border: 5%;
+        background-color: #F2F2F2;
+        border-radius: 20px;
+        color: #BF0B3B;
+        padding: 15px;
+        margin-top: 5%;
+
+        cursor: pointer;
+        margin-bottom: 0.8cm;
+}
+
+.areabutton button {
+    
+    padding: 10px 35px 10px 35px;
+    border-radius: 6px;
+    margin-left: 1.8cm;
+    cursor: pointer;
+    margin-bottom: 1cm;
+
+}
+
+
+
+

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <h1 class="title">Seja bem vindo ao STAGE BANK</h1>
+    <form style="text-align:center" action="loginPage">
+        Nome Completo: <input type="text" name="name-user"></br>
+        Cpf: <input type="number" name="cpf"></br>
+        Senha: <input type="password" name="password"></br>
+        Nome da mãe: <input type="text" name="namemother"></br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
