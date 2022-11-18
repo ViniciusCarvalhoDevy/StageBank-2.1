@@ -70,11 +70,10 @@ body{
     justify-content: center;
 }
 
-
-
-.navbar-itens{
-  margin-right: 40%;
-  margin-bottom: 1px;
+#navbar-itens{
+    color: #F2F2F2;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 35px;
 }
 
 .inputs{
