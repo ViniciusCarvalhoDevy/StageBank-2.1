@@ -1,0 +1,110 @@
+a{
+    text-decoration: none;
+    list-style: none;
+    color: #BF0B3B;
+}
+
+header{
+    background-color: #BF0B3B;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 5;
+    opacity: 1;
+}
+
+body{
+    background:linear-gradient(360deg, rgb(0,0,0), #ff0044)
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar  li{
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 15px;
+    font-family: 'Roboto Mono', monospace;
+    color: #f2f2f2;
+    list-style: none;
+    
+}
+
+.navbar a{
+    list-style: none;
+    text-decoration: none;
+    color: #BF0B3B;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f2f2f2;
+    border-radius: 40px;
+    color: #BF0B3B;
+    letter-spacing: 1px;
+    transition: ease .50s;
+    font-family: 'Roboto Mono', monospace;
+    padding: 15px 20px;
+}
+
+.navbar a:hover{
+    color: #f2f2f2;
+    background-color: #BF0B3B;
+    border: 10px solid ;
+    display: flex;
+    justify-content: center;
+}
+
+#navbar-itens{
+    color: #F2F2F2;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 35px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 12%;
+    margin-bottom: 7%;
+    color: #f2f2f2;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 50px;
+}
+
+.list-options{
+   
+    color: #BF0B3B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-radius: 40px;
+    letter-spacing: 1px;
+    transition: ease .50s;
+    font-family: 'Roboto Mono', monospace;
+    padding: 20px 20px;
+    margin-bottom: 2%;
+    margin-right:35%;
+    margin-left: 35%;
+    cursor: pointer;
+}
+
+.list-options input{
+    border: 0 none;
+    outline: 0;
+    cursor: pointer;
+    font-size: 17px;
+    color: #BF0B3B;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+.list-options:hover{
+    color: #BF0B3B;
+    background-color: #f2f2f2;
+    border: 10px solid #f2f2f2;
+    display: flex;
+    justify-content: center;
+}
