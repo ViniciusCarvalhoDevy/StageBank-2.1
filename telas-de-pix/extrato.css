@@ -39,11 +39,12 @@
     }
     
     #voltar{
-       font-size: 1cm;
+       font-size: 1.5cm;
     }
     
     #ajuda{
         padding: 20px 20px;
+        font-size: 1cm;
     }
 
     main p, label{
@@ -54,7 +55,7 @@
         margin-left: 1cm;
     }
     .name{
-    margin-left: 2cm;
+    margin-left: 4cm;
     font-size: 1cm;
     }
     #bank{
@@ -68,8 +69,10 @@
         height: 100%;
         border-radius: 10px 10px 0 0;
         max-height: 100%;
-        max-height: 100%;
+        min-height: 640px;
         padding-bottom: 16px;
+        font-size: 0.8cm;
+        margin-bottom: 40px;
     }
 
     .logs{
@@ -81,3 +84,4 @@
        text-align: right;
        padding-right: 10px;
     }
+   
