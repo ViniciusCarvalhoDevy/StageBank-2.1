@@ -57,6 +57,7 @@
             border: solid yellow;
             border-radius: 5px;
             display:grid;
+            margin-top: 20px;
             
         }
         
@@ -72,4 +73,7 @@
         }
         #adm{
             margin-left: 20px;
+        }
+        #main{
+            padding-bottom: 112px;
         }
