@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    }
+    
+    body{
+        background:linear-gradient(360deg, rgb(0, 0, 0), #ff0044);
+    }
+    
+    
+    a{
+        list-style: none;
+        text-decoration: none;
+        color:#fff;
+    }
+    #voltar{
+        color: yellow;
+        margin-left: 4px
+       
+    }
+    
+       
+    
+    #header{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    text-align: center;
+    }
+    
+    .container{
+        max-width: 1070px;
+        margin: 0 auto;
+    }
+    
+    #voltar{
+       font-size: 1cm;
+    }
+    
+    #ajuda{
+        padding: 20px 20px;
+    }
+    #area{
+         border: solid white;
+        border-radius: 0.8cm;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #area-pix{
+       margin-left: 1.5cm;
+        text-align:left;
+        padding-top: 0.3cm;
+        padding-bottom: 0.3cm;
+        max-width: 50%;
+        margin-top: 0.97cm;
+    
+    }
+    
+    #pix{
+        margin-top: 0.01cm;
+        width: 8.6cm;
+        border-radius:10px;
+        height: 2cm;
+        border-bottom: solid black;
+        background-color: rgb(255, 53, 53);
+    }
+    
+    main p, label{
+        color: white;
+    }
+    
+    #button{
+    align-items: center;
+       text-align: center;
+       padding-bottom: 10px;
+    }
+    #botao{
+       
+       margin-top: 0.6cm;
+       height: 2cm;
+       width: 4cm;
+       border: 30px solid #f2f2f2;
+        border-radius: 50px; 
+        color: #BF0B3B;
+        background-color: #f2f2f2;
+        margin-bottom: 2px
+        
+    }
+    #botao:hover{
+        cursor: pointer;
+    
+    }
+    
+    #recentes{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 2cm;
+        color: black;
+        
+      
+    }
+    #recentes a{
+        color: white;
+    }
+    
+    
+    #title{
+        margin-left: 1cm;
+        font-size: 0.8cm;
+    }
+    .name{
+    margin-left: 2cm;
+    font-size: 1cm;
+    }
+    #bank{
+        color: white;
+    }
+    #header{
+        height: 68.5px;
+    }
+    .label{
+        padding-left: 20px;
+    }
+    
+    #pix {
+        padding-left: 0.6cm;
+        color: white;
+    }
+    input::placeholder{
+        color: white;
+    }

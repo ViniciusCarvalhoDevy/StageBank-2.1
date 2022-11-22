@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    }
+    
+    body{
+       background:linear-gradient(360deg, rgb(0, 0, 0), #ff0044);
+    }
+    a{
+        list-style: none;
+        text-decoration: none;
+        color: aliceblue;
+    }
+
+    #voltar{
+        color: yellow;
+    }
+
+    a{
+        list-style: none;
+        text-decoration: none;
+        color: aliceblue;
+    }
+    #voltar{
+        color: yellow;
+        margin-left: 4px
+       
+    }
+    #header{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    text-align: center;
+    }
+    .container{
+        max-width: 1070px;
+        margin: 0 auto;
+    }
+    
+    #voltar{
+       font-size: 1.5cm;
+    }
+    
+    #ajuda{
+        padding: 20px 20px;
+        font-size: 20px;
+    }
+
+    main p, label{
+        color: white;
+    }
+
+    #title{
+        margin-left: 1cm;
+    }
+    .name{
+    margin-left: 4cm;
+    font-size: 1cm;
+    }
+    #bank{
+        color: white;
+    }
+    #header{
+        height: 68.5px;
+    }
+    #area-extrato{
+        border: solid yellow;
+        height: 100%;
+        border-radius: 10px 10px 0 0;
+        max-height: 100%;
+        
+        height: 540px;
+        padding-bottom: 16px;
+        font-size: 0.8cm;
+        margin-bottom: 40px;
+    }
+
+    .logs{
+        margin: 8px 0 18px 20px;
+    }
+    .data-log{
+       align-items: flex-end;
+       justify-content: flex-end;
+       text-align: right;
+       padding-right: 10px;
+    }
+
+    .areabutton button {
+        margin-top: 10cm;
+        padding: 10px 35px 10px 35px;
+        border-radius: 6px;
+        margin-left: 1.8cm;
+        cursor: pointer;
+        margin-bottom: 1cm;
+    
+    }

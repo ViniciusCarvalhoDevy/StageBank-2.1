@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    }
+    
+    body{
+       background:linear-gradient(360deg, rgb(0, 0, 0), #ff0044);
+       margin-bottom: 4.2cm;
+    }
+    a{
+        list-style: none;
+        text-decoration: none;
+        color: aliceblue;
+        
+    }
+
+    #voltar{
+        color: yellow;
+    }
+
+    a{
+        list-style: none;
+        text-decoration: none;
+    }
+    #voltar{
+        color: yellow;
+        margin-left: 4px
+       
+    }
+    #header{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    text-align: center;
+    }
+    
+    .container{
+        max-width: 1070px;
+        margin: 0 auto;
+    }
+    
+    #voltar{
+       font-size: 1cm;
+    }
+    
+    #ajuda{
+        padding: 20px 20px;
+    }
+
+    main p, label{
+        color: white;
+    }
+
+    #links{
+        display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    #links a{
+        border: solid red;
+        height: 70px;
+        width: 5cm;
+        text-align: center;
+        padding-top: 25px;
+        margin: 0 10px 0 10px;
+        margin-top: 90px;
+        border-radius: 40px;
+        color: red;
+    }
+    
+    #links a:hover{
+    color: white;
+    }
+    #title{
+        margin-left: 1cm;
+    }
+    .name{
+    margin-left: 2cm;
+    font-size: 1cm;
+    }
+    #bank{
+        color: white;
+    }
+    #header{
+        height: 68.5px;
+    }
+
+    #escolha{
+        border: solid yellow;
+        border-radius: 10px;
+        height: 10.5cm;
+        max-height: 100%;
+        padding-top: 20px;
+    }
+
+    #titulo{
+        margin-top: 30px;
+        font-size: 0.8cm;
+        margin-left: 13px;
+    }
+    #area h1{
+margin-left: 10px;
+    }

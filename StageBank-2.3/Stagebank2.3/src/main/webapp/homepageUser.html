@@ -1,0 +1,39 @@
+<!--<%@ page import = "br.com.login.model.User" %>
+<%@ page import = "br.com.login.model.User" %>
+
+<%@ page import = "br.com.login.model.User" %>
+-->
+<!DOCTYPE html>
+<html lang = "pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>STAGEBANK</title>
+    <link rel="stylesheet" href="CSS/homepageUser.css">
+</head>
+<body>
+   <header>
+        <div class="navbar">
+            <ul class="navbar-user">
+                <li id="navbar-itens">STAGEBANK</li>
+            </ul>
+            <ul class="navbar-options">
+                <li> <a href="http://localhost:8080/StageBank/Login.html">ACESSAR OUTRA CONTA</a> </li>
+                <li> <a href="http://localhost:8080/StageBank/">SAIR</a> </li>
+            </ul>
+        </div>
+   </header>
+   <section>
+        <h1 class="title">OPÇÕES DISPONÍVEIS PARA VOCÊ:</h1>
+        <ul class="list">
+            <li class="list-options"> <a href="area-main.html">PIX</a> </li>
+            <li class="list-options"> <a href="tedScreen.html">TED (Transferência Bancária)</a>  </li>
+            <li class="list-options"> <a href="recarga.html">Recarregar Celular</a> </li>
+            <li class="list-options"> <a href="extrato.html">Extrato</a> </li>
+            <form action="saldo" method="post"><li class="list-options"><input type="submit" value="Saldo"></li></form>
+            <li class="list-options"> <a href="CadastrodigitalCard.html">Cadastrar Cartão Virtual</a> </li>
+            <form action="CartaoDigitalusuario" method="post"><li class="list-options"><input type="submit" value="Visualizar Cartão Virtual"></li></form>
+           
+        </ul>
+   </section>
+</body>
+</html>

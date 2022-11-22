@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    }
+    body{
+        background:linear-gradient(360deg, rgb(0, 0, 0), #ff0044);
+        margin-bottom: 5cm;
+    }
+    a{
+        list-style: none;
+        text-decoration: none;
+        color: aliceblue;
+    }
+
+    #voltar{
+        color: yellow;
+    }
+    #header{
+        display: flex;
+       justify-content: space-between;
+       align-items: center;
+       height: 90px;
+       text-align: center;
+       }
+
+       .container{
+        max-width: 1070px;
+        margin: 0 auto;
+    }
+    
+    #voltar{
+       font-size: 1cm;
+    }
+    
+    #ajuda{
+        padding: 20px 20px;
+    }
+    main h2, table{
+        color: white;
+    }
+    .infos{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #nome-mae{
+        padding-left: 30px;
+    }
+    .name{
+        margin-left: 2cm;
+        font-size: 1cm;
+        }
+        #bank{
+            color: white;
+        }
+
+    table, td, th, tfoot {border:solid 2.5px #000; padding:5px;}
+th {background-color:grey;}
+caption {font-size:x-large;}
+colgroup {background:#F60;}
+.coluna1 {background:#F66;}
+.coluna2  {background:#F33;}
+.coluna3  {background:#F99;}
+ 
+#user{
+    margin: 20px;
+}
+#user th{
+    color: black;
+
+}
+#editar a{
+    color: white;
+}
+#editar a:hover{
+    color: red;
+}
+
+#main{
+    margin-top: 30px;
+    padding-bottom: 85px;
+}
+#nome{
+text-align: center;
+}
+#adm{
+    margin-left: 20px;
+}
+
+#sacar{
+    justify-content: end;
+}

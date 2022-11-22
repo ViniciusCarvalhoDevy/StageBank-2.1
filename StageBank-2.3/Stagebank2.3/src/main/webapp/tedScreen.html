@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>STAGEBANK</title>
+    <link rel="stylesheet" href="CSS/tedScreen.css">
+</head>
+<body>
+   <header>
+        <div class="navbar">
+            <ul class="navbar-user">
+                <li class="navbar-itens">getNameUser</li>
+                <li class="navbar-itens">getBalanceUser</li>
+            </ul>
+            <ul class="navbar-options">
+                <li> <a href="">ACESSAR OUTRA CONTA</a> </li>
+                <li> <a href="http://localhost:8080/StageBank/">SAIR</a> </li>
+            </ul>
+        </div>
+   </header>
+   <section><h1 class="title">TED - TRANSFERENCIA BANCARIA</h1>
+
+        <form action="transferenciaPage" class="form" method="POST">
+        
+            <div class="container">
+                
+                <p class="inputs">NOME DO BANCO:</p>     
+                <input class="put" type="text" name="name-bank">
+                <p class="inputs">AGENCIA:</p> 
+                <input class="put" type="text" name="agencia">
+                
+            </div>
+
+            <div class="container">
+                
+                <p class="inputs">A CONTA SEM O DIGITO: </p>   
+                <input class="put" type="text" name="conta-sem-digito"> 
+                <p class="inputs">O DIGITO: </p>
+                <input class="put" type="text" name="digito"> 
+                
+            </div>
+
+            <div class="container">
+                
+                <p class="inputs">QUAL É O VALOR DA TRANSFERENCIA: </p> 
+                <input class="put" type="text" name="valor_transferencia"> 
+                
+            </div>
+            <input class="submit" type="submit" value="REALIZAR TRANSFERENCIA">
+        </form>
+        
+   </section>
+</body>
+</html>

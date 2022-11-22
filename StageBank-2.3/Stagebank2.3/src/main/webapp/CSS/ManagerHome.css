@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    }
+    body{
+        background:linear-gradient(360deg, rgb(0, 0, 0), #ff0044);
+        margin-top: 4.1cm;
+    }
+    a{
+        list-style: none;
+        text-decoration: none;
+        color: aliceblue;
+    }
+
+    #voltar{
+        color: yellow;
+    }
+    #header{
+        display: flex;
+       justify-content: space-between;
+       align-items: center;
+       height: 90px;
+       text-align: center;
+       }
+
+       .container{
+        max-width: 1070px;
+        margin: 0 auto;
+    
+    }
+    
+    #voltar{
+       font-size: 1cm;
+    }
+    
+    #ajuda{
+        padding: 20px 20px;
+    }
+
+    main h2, p, label{
+        color: white;
+    }
+
+    .name{
+        margin-left: 2cm;
+        font-size: 1cm;
+        }
+        #bank{
+            color: white;
+        }
+
+        #usuarios{
+        text-align: center;
+        }
+        #info{
+            padding: 5px;
+            margin: 10px;
+            border: solid yellow;
+            border-radius: 5px;
+            display:grid;
+            margin-top: 20px;
+            
+        }
+        
+        .infos{
+            margin: 10px 0 10px 20px;
+           
+        }
+       .infos a{
+         color: white;
+       }
+        .infos a:hover{
+            color: red;
+        }
+        #adm{
+            margin-left: 20px;
+        }
+        #main{
+            padding-bottom: 112px;
+        }

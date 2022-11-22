@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STAGEBANK</title>
+    <link rel="stylesheet" href="CSS/CadastrodigitalCard.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <ul class="navbar-user">
+                <li id="navbar-itens">STAGEBANK</li>
+            </ul>
+            <ul class="navbar-options">
+                <li> <a href="">ACESSAR OUTRA CONTA</a> </li>
+                <li> <a href="http://localhost:8080/StageBank/">SAIR</a> </li>
+            </ul>
+        </div>
+   </header>
+   <section>
+        <h1 class="title">CRIACAO DO SEU CARTAO DIGITAL</h1>
+
+        <div class="container-card">
+            <p class="title-card">STAGEBANK</p>
+
+            <p class="name-card">VLADSLOVIC SAVIC</p>
+            <p class="number-card">0000.0000.0000.0000</p>
+            <p class="validade-card">00/00</p>
+            <p class="cvv">000</p>
+        </div>
+        <div class="form-cadastrocard">
+            <form action="cadastrocard" method="POST">
+                <div class="container">
+                    <p class="inputs">NOME COMPLETO:</p>
+                    <input type="text" name="nameUser_card" class="put-one">
+                
+                    <p class="inputs">NUMERO DO CARTÃO:</p>
+                    <input type="text" name="number_card" class="put-one">
+                </div>
+                <div class="container">
+                    <p class="inputs">DATA DE VALIDADE:</p>
+                    <input type="text" name="validade_card" class="put">
+
+                    <p class="inputs">CVV:</p>
+                    <input type="text" name="cvv_card" class="put">
+                </div>
+                <input class="submit" type="submit" value="CADASTRAR CARTAO">
+            </form>
+        </div>
+   </section>
+</body>
+</html>

@@ -1,0 +1,10 @@
+br\com\login\CadastroServlet.class
+br\com\login\model\Receptor.class
+br\com\login\model\ADM.class
+br\com\login\servace\bank\Deposit.class
+br\com\login\model\Manager.class
+br\com\login\servace\bank\OperationPix.class
+br\com\login\LoginServlet.class
+br\com\login\servace\bank\Data_bank.class
+br\com\login\model\User.class
+br\com\login\servace\bank\Operation_Bank_Data.class

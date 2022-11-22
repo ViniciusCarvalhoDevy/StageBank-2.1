@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body{
+background:linear-gradient(360deg, black, #ff0044);
+    margin-bottom: 4.4cm;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    color: #F2F2F2;
+    font-family: 'Secular One', sans-serif;
+    font-size: 45px;
+}
+
+.subtitle{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    color: #F2F2F2;
+    font-family: 'Secular One', sans-serif;
+    font-size: 25px;
+}
+
+.options a{
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+    font-family: 'Secular One', sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    list-style: none;
+    color: #BF0B3B;
+    border: 1px solid #BF0B3B;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+}
+
+.options a:hover{ 
+    color: #BF0B3B;
+    border: 10px solid #F2F2F2;
+    border-radius: 15px;
+}
+
+.options{
+    padding-left: 40%;
+    padding-right: 40%;
+}

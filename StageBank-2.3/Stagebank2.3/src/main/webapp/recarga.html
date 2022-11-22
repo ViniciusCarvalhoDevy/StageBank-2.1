@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/recarga.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+
+    <title>Central de Recarga</title>
+</head>
+<body>
+    <header>
+        <div class="container" id="header">
+            <div class="name">
+                <strong  id="stage">STAGE<strong  id="bank">BANK</strong></strong>
+            </div>
+
+            <div id="ajuda"> 
+                <strong><a href="#">AJUDA i</a></strong>
+            </div>
+
+        </div>
+    </header>
+
+<main>
+    <div class="container" id="main">
+        <div>
+            <h1 id="title">Central de Recarga</h1>
+        </div>
+        <div id="area">
+            <div id="area-recarga">
+                <div>
+                    
+            <form action="recarga" method="post">  
+                        <label for="recarga">Para qual número você quer fazer a recarga? <br></label>
+                        <input type="text" name="numero" id="recarga"  placeholder="DDD + número" required>
+                    </div>
+            
+                <br>
+                    <div>
+                        <label for="recarga">Qual valor da Recarga?<br></label>
+                        <input type="text" name="valor" id="recarga"  placeholder="R$ 00,00" required> 
+                    </div>
+                </div>
+                
+                <h4></h4>
+                <div id="operadoras">
+                    <select name="operadora" id="tipo">
+                        <option value="">Selecione uma operadora</option>
+                        <option value="oi">OI</option>
+                        <option value="tim">TIM</option>
+                        <option value="vivo">VIVO</option>
+                        <option value="claro">CLARO</option>
+                    </select>
+                   
+                    
+                    
+                </div>
+                        
+                <div id="button">
+                    <input type="submit" id="botao"  value="Recaregar">
+                </div>
+             
+            </form>
+           
+        </div>
+  
+    </div>
+
+</main>
+
+</body>
+</html>
